@@ -10,6 +10,10 @@ const options = {
       description: "Node.js Express + MongoDB uchun API hujjati (Swagger)",
     },
     servers: [
+       {
+        url: "https://durbek-webbot-node.onrender.com/api",
+        description: "Server",
+      },
       {
         url: "http://localhost:5000/api",
         description: "Building Server",
